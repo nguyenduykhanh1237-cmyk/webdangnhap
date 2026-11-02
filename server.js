@@ -141,7 +141,7 @@ app.post('/register', (req, res) => {
     }
 
     users.push({ username, password });
-    console.log(`\n[ĐĂNG KÝ THÀNH CÔNG] Tài khoản: ${username} \vert{} Mật khẩu: ${password}`);
+    console.log(`\n[ĐĂNG KÝ THÀNH CÔNG] Tài khoản: ${username} | Mật khẩu: ${password}`);
 
     res.send(`
         <body style="background:#0f172a; color:#fff; text-align:center; padding-top:100px; font-family:sans-serif;">
@@ -157,7 +157,7 @@ app.post('/register', (req, res) => {
 // Xử lý Đăng Nhập
 app.post('/login', (req, res) => {
     const { username, password } = req.body;
-    console.log(`\n[CÓ NGƯỜI THỬ ĐĂNG NHẬP] Tài khoản: ${username} \vert{} Mật khẩu: ${password}`);
+    console.log(`\n[CÓ NGƯỜI THỬ ĐĂNG NHẬP] Tài khoản: ${username} | Mật khẩu: ${password}`);
 
     const validUser = users.find(u => u.username === username && u.password === password);
 
@@ -188,4 +188,5 @@ app.post('/login', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`🚀 Máy
+    console.log(`🚀 Máy chủ đang chạy tại cổng ${PORT}`);
+});
