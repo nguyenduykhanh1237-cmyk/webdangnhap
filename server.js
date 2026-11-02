@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
         <html lang="vi">
         <head>
             <meta charset="UTF-8">
-            <title>Cổng Xác Thực RGB Interactive</title>
+            <title>Cổng Đăng Nhập RGB Interactive</title>
             <script src="https://cdn.tailwindcss.com"></script>
             <style>
                 @keyframes rgbGlow {
@@ -77,7 +77,7 @@ app.get('/', (req, res) => {
                 
                 <div class="text-center space-y-1">
                     <h2 class="text-3xl font-black tracking-wider rgb-title uppercase drop-shadow-lg">Cổng Xác Thực</h2>
-                    <p class="text-xs text-slate-400">Trải nghiệm giao diện tương tác động cao cấp</p>
+                    <p class="text-xs text-slate-400">Web thử nghiệm</p>
                 </div>
 
                 <!-- Thanh chuyển Tab -->
