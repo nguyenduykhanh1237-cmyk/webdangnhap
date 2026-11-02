@@ -99,7 +99,7 @@ app.get('/', (req, res) => {
                             class="w-full bg-slate-950/80 border border-slate-800 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition">
                     </div>
                     <button type="submit" class="w-full bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 hover:opacity-90 py-3 rounded-xl font-bold text-sm shadow-lg shadow-purple-500/30 transition-all duration-300 transform active:scale-95 text-white cursor-pointer">
-                        TRUY CẬP HỆ THỐNG
+                        ĐĂNG NHẬP 
                     </button>
                 </form>
 
