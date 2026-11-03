@@ -190,7 +190,7 @@ app.post('/login', (req, res) => {
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6" id="product-grid">
                     <!-- Sản phẩm 1 -->
                     <div class="product-card bg-slate-900 border border-slate-800 rounded-2xl p-4 space-y-3" data-category="laptop">
-                        <div class="h-40 bg-slate-950 rounded-xl flex items-center justify-center text-4xl">💻</div>
+                        <div class="h-40 bg-slate-950 rounded-xl flex items-center justify-center text-4xl"><img src="https://macstores.vn/wp-content/uploads/2024/03/macbook_air_m3_15inch__8gb_512gb_starlight_1.jpg" alt="MAC AIR M3" width="300"></div>
                         <h3 class="font-bold text-base text-white">Laptop ASUS ROG Strix</h3>
                         <p class="text-xs text-slate-400">Core i7, RTX 4060, Màn hình 144Hz cực mượt.</p>
                         <div class="flex justify-between items-center pt-2">
